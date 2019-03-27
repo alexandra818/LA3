@@ -17,13 +17,19 @@ body {
 }
 .r1{}
 
-.r1,
+/* .r1,
 .r3 {
-    background-color: #CCC;
+    background-color: #FBEAEB;
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     grid-column-gap: 1em;
     
+} */
+.r3 {
+    align-self: center;
+    justify-self: center;
+    background-color: #FBEAEB;
+
 }
 .r3>p {
     align-self: center;
@@ -53,7 +59,7 @@ border-top-right-radius: 15px;
 .login-container-grid {
     display: grid;
     grid-template-rows: 1fr 13fr 1fr;
-    background-color:#CCC;
+    background-color:#FBEAEB;
 }
 .login-logo {
 height: 200px;
@@ -68,12 +74,15 @@ height: 200px;
     justify-self: right;
     font-weight:bold;
     font-size: 19px;
-    color: #FFF;
-    background-color:aliceblue;
+    color: white;
+    background-color:#2F3C7E;
     border-radius: 10px;
 
 }
 .login-input {
     padding: 15px;
     font-size: 20px;
+}
+.copyright-text {
+    justify-self: center;
 }

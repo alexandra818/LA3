@@ -38,7 +38,7 @@ body {
 }
 
 .left-nav>li {
-    border: 1px solid #CCC;
+    border: 1px solid #2F3C7E;
 }
 
 .left-nav>li>a {
@@ -50,22 +50,22 @@ body {
 
 }
 .left-nav>li:hover {
-    background-color: rgba(186, 150, 194, 0.918);
+    background-color: rgb(250, 211, 214);
     transition-duration: 1.0s;
 }
 
 .r1 {
-    background-color: rgb(116, 185, 176);
+    background-color: #FBEAEB;
 }
 
 .r2 {
-    background-color: lightgray;
+    background-color:#FBEAEB;
     width: 90%;
     margin: 0px auto;
 }
 
 .r3 {
-    background-color: lightskyblue;
+    background-color: #FBEAEB;
 }
 
 .r1,
@@ -81,7 +81,7 @@ body {
 
 .r2c1,
 .r2c3 {
-    background-color: #CCC;
+    background-color: #FBEAEB;
 }
 td {
     padding: 10px;
@@ -107,10 +107,11 @@ td {
 }
 
 .course-table>thead>tr>td {
-    border: 1px solid #AAA;
+    border: 1px solid #2F3C7E;
     font-weight: bold;
     font-size: 20px;
-    background-color: rgb(137, 181, 175);
+    background-color:#2F3C7E;
+    color: white;
 }
 .copyright-text {
     justify-self: center;
